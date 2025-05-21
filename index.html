@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libe/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Espaço do Rock</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-rock" class="nav-link">
+                            <i class="bi bi-music-note-beamed me-1"></i>
+                            Sobre o Rock
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estilos" class="nav-link">
+                            <i class="bi bi-boombox-fill me-1"></i>
+                            Estilos
+
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#bandas" class="nav-link">
+                            <i class="bi bi-vinyl-fill me-1"></i>
+                            As Bandas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-rock">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/img/slides/slide1.avif" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/img/slides/slide2.avif" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/img/slides/slide3.avif" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/img/rock.jfif" class="d-block w-100 rounded"
+                                alt="Sobre o Rock">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre os estilos</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque nemo ratione,
+                                excepturi fugit, totam, odit quam eum similique unde recusandae. Odit repellat, culpa
+                                numquam odio id quo eaque consequatur.
+                            </p>
+                            <h3 class="section-title">Albuns</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, commodi provident ad est
+                                cum
+                                aliquam inventore veritatis similique deserunt assumenda enim, voluptatibus repudiandae
+                                molestiae velit asperiores ipsam nam quae aspernatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estilos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Qual o seu estilo ?</span></h2>
+                </div>
+                <div class="row mt-">
+                    <div class="col-md-4">
+                        <img src="img/metal core.jfif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-disc-fill"></i>
+                            Metal Core
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium provident dolore ex
+                            quisquam tempora, nihil quidem sapiente libero recusandae similique esse. Beatae iure aut
+                            vel dolore labore, placeat accusamus nisi?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/death metal.jfif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-vinyl-fill"></i>
+                            Death Metal
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium provident dolore ex
+                            quisquam tempora, nihil quidem sapiente libero recusandae similique esse. Beatae iure aut
+                            vel dolore labore, placeat accusamus nisi?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/heavy metal.jfif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cassette-fill"></i>
+                            Heavy Metal
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium provident dolore ex
+                            quisquam tempora, nihil quidem sapiente libero recusandae similique esse. Beatae iure aut
+                            vel dolore labore, placeat accusamus nisi?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bandas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        As Bandas
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-bandas">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#metal-core"
+                                class="fw-bold text-start nav-link text-colored active">Metal Core</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#death-metal"
+                                class="fw-bold text-start nav-link text-colored">Death Metal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#heavy-metal"
+                                class="fw-bold text-start nav-link text-colored">Heavy Metal</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="metal-core">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/metal core/a7s.webp"
+                                            alt="Avenged Sevenfold">
+                                        <h5 class="text-colored fw-bold mt-2">Avenged Sevenfold</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/metal core/BMTH-Press-2.jpg"
+                                            alt="Bring Me The Horizon">
+                                        <h5 class="text-colored fw-bold mt-2">Bring Me The Horizon</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/metal core/Spiritbox-768x432.jpg.webp"
+                                            alt="Spirit Box">
+                                        <h5 class="text-colored fw-bold mt-2">Spirit Box</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/metal core/badomens_awardsite.jpg"
+                                            alt="Bad Omens">
+                                        <h5 class="text-colored fw-bold mt-2">Bad Omens</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="death-metal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/death metal/arch.jpeg"
+                                            alt="Arch Enemy">
+                                        <h5 class="text-colored fw-bold mt-2">Arch Enemy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/death metal/carcass.webp" alt="">
+                                        <h5 class="text-colored fw-bold">Carcass</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/death metal/Orbit-Culture-Featured.webp" alt="">
+                                        <h5 class="text-colored fw-bold">Orbit Culture</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/death metal/mfn-amonamarth.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Amon Amarth</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="heavy-metal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="img/heavy metal/system.avif"
+                                            alt="">
+                                        <h5 class="text-colored fw-bold mt-2">System of a Down</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/heavy metal/metalica.avif"
+                                            alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Metalica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa" src="/img/heavy metal/Megadeth2013.webp"
+                                            alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Megadeath</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 img-fixa img-fixa" src="/img/heavy metal/pantera-1.webp"
+                                            alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pantera</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        Fale <span class="text-colored">Conosco</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">
+                                        Seu nome
+                                    </label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">
+                                        Seu e-mail
+                                    </label>
+                                    <input type="text" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">
+                                        Seu Telefone (opcional)
+                                    </label>
+                                    <input type="tel" id="telefone" name="telefone" class="form-control">
+                                    <div class="invalid-feedback">
+                                        Informe um número válido com DDD e 9 dígitos.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">
+                                        Sua Mensagem
+                                    </label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="row mt-4">
+                                    <h3 class="section-title fs-4 text-colored">
+                                        <i class="bi bi-cursor-fill"></i>
+                                        Endereço
+                                    </h3>
+                                    <p>
+                                        Rua Teste Exemplo N°145, Bairro Bootstrap - São Paulo SP
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="/libe/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#telefone').mask('(00) 00000-0000');
+        });
+    </script>
+</body>
+
+</html>
